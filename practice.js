@@ -1,5 +1,12 @@
 //* Suppose we want to write a function that calculates the sum of all numbers from 1 up to(and including) some number n. 
 
+//? More efficient solution: (tests return .0001 of a second)
+/*
+  function addUpTo(n) {
+    return n * (n + 1) / 2
+  }
+*/
+
 function addUpTo(n) {
   // accumulator which will be the variable that is returned at the end of the function. 
   let total = 0
@@ -9,6 +16,13 @@ function addUpTo(n) {
   }
   return total
 }
+
+// test is checking for speed of above function 
+let t1 = performance.now()
+addUpTo(1000000000)
+let t2 = performance.now()
+console.log(`Time elapsed: ${(t2 - t1) / 1000} seconds.`)
+// test returns 0.9163556661605835 seconds. on first return 
 
 console.log(addUpTo(6))
 // returns 21 
