@@ -12,3 +12,11 @@ O(n<sup>2<sup>): as n grows the runtime grows to the rate of n squared
 O(1): constant. Takes roughly the same amount of time throughout
 
 **As n grows how does that reflect in the runtime?**
+
+- Space Complexity: 
+  - How much memory do we need to allocate in order to run the code in our algorithm? 
+  - Rules of thumb:
+    - Most primitives (booleans, numbers, undefined, null) are constant space. 
+    - Strings require O(n) space 
+    - Reference types are generally O(n) where n is the length(arrays) or the number of keys(objects)
+
