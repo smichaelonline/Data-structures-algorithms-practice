@@ -1,4 +1,4 @@
-# Data-structures-algorithms-practice
+# Data Structures and Algorithms Notes
 General notes from Udemy Data Structures and Algorithms course. 
 
 ## Notes 
