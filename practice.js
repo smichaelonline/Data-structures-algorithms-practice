@@ -5,8 +5,11 @@
   function addUpTo(n) {
     return n * (n + 1) / 2
   }
+  3 operations running (multiplications, addition, division)
+  O(1)
 */
 
+// O(n) : number of operations is bounded by a multiple of n (loops will usually be this)
 function addUpTo(n) {
   // accumulator which will be the variable that is returned at the end of the function. 
   let total = 0
