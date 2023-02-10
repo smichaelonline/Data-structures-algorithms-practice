@@ -35,7 +35,13 @@ Refer to Problem Solving file for examples breaking down the below.
     - What are the outputs that should come from the solution to the problem? 
     - Can the outputs be determined from the inputs? Do I have enough information to solve the problem? 
   - *Exlore concrete examples*
+    - Coming up with examples can help you understand the problem better
+    - Examples provide a sanity check that shows how your solution should work
+    - User Stories: given a user input, what is the output? 
+    - Unit Tests
   - *Break it down*
+    - Explicitly write out the steps you need to take
+      - this forces you to think about code before you write it and will help flesh out any questions that need to be asked and catch any misunderstandings there are before diving in. 
   - *Solve/Simplify*
   - *Look Back and Refactor*
 
