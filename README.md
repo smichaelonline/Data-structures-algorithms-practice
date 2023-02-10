@@ -20,3 +20,9 @@ O(1): constant. Takes roughly the same amount of time throughout
     - Strings require O(n) space 
     - Reference types are generally O(n) where n is the length(arrays) or the number of keys(objects)
 
+### Approach to Problem Solving 
+*Algorithm*: a process or set of steps to accomplish a certain task 
+
+Steps to improve: 
+  - Devise a plan for solving the problem
+  - Master common problem solving patters
