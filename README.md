@@ -21,8 +21,24 @@ O(1): constant. Takes roughly the same amount of time throughout
     - Reference types are generally O(n) where n is the length(arrays) or the number of keys(objects)
 
 ### Approach to Problem Solving 
-*Algorithm*: a process or set of steps to accomplish a certain task 
+**Algorithm**: a process or set of steps to accomplish a certain task 
 
-Steps to improve: 
+_Steps to improve:_
   - Devise a plan for solving the problem
   - Master common problem solving patters
+
+_Steps to take when problem solving:_ 
+Refer to Problem Solving file for examples breaking down the below. 
+  - *Understand the problem*
+    - Can I restate the problem in my own words?
+    - What are the inputs that go into the problem?
+    - What are the outputs that should come from the solution to the problem? 
+    - Can the outputs be determined from the inputs? Do I have enough information to solve the problem? 
+  - *Exlore concrete examples*
+  - *Break it down*
+  - *Solve/Simplify*
+  - *Look Back and Refactor*
+
+**Book recommendation** : *How to Solve It* by Geaorge Polya 
+
+
